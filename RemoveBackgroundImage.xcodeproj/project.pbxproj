@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		956AB89B1EE890AC003609B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 956AB89A1EE890AC003609B0 /* main.m */; };
+		956AB89E1EE890AC003609B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 956AB89D1EE890AC003609B0 /* AppDelegate.m */; };
+		956AB8A41EE890AC003609B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 956AB8A21EE890AC003609B0 /* Main.storyboard */; };
+		956AB8A61EE890AC003609B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 956AB8A51EE890AC003609B0 /* Assets.xcassets */; };
+		956AB8A91EE890AC003609B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 956AB8A71EE890AC003609B0 /* LaunchScreen.storyboard */; };
+		956AB8B21EE89386003609B0 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 956AB8B11EE89386003609B0 /* ImageViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		956AB8961EE890AC003609B0 /* RemoveBackgroundImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemoveBackgroundImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		956AB89A1EE890AC003609B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		956AB89C1EE890AC003609B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		956AB89D1EE890AC003609B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		956AB8A31EE890AC003609B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		956AB8A51EE890AC003609B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		956AB8A81EE890AC003609B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		956AB8AA1EE890AC003609B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		956AB8B01EE89386003609B0 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		956AB8B11EE89386003609B0 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		956AB8931EE890AC003609B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		956AB88D1EE890AC003609B0 = {
+			isa = PBXGroup;
+			children = (
+				956AB8981EE890AC003609B0 /* RemoveBackgroundImage */,
+				956AB8971EE890AC003609B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		956AB8971EE890AC003609B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				956AB8961EE890AC003609B0 /* RemoveBackgroundImage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		956AB8981EE890AC003609B0 /* RemoveBackgroundImage */ = {
+			isa = PBXGroup;
+			children = (
+				956AB89C1EE890AC003609B0 /* AppDelegate.h */,
+				956AB89D1EE890AC003609B0 /* AppDelegate.m */,
+				956AB8B01EE89386003609B0 /* ImageViewController.h */,
+				956AB8B11EE89386003609B0 /* ImageViewController.m */,
+				956AB8A21EE890AC003609B0 /* Main.storyboard */,
+				956AB8A51EE890AC003609B0 /* Assets.xcassets */,
+				956AB8A71EE890AC003609B0 /* LaunchScreen.storyboard */,
+				956AB8AA1EE890AC003609B0 /* Info.plist */,
+				956AB8991EE890AC003609B0 /* Supporting Files */,
+			);
+			path = RemoveBackgroundImage;
+			sourceTree = "<group>";
+		};
+		956AB8991EE890AC003609B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				956AB89A1EE890AC003609B0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		956AB8951EE890AC003609B0 /* RemoveBackgroundImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 956AB8AD1EE890AC003609B0 /* Build configuration list for PBXNativeTarget "RemoveBackgroundImage" */;
+			buildPhases = (
+				956AB8921EE890AC003609B0 /* Sources */,
+				956AB8931EE890AC003609B0 /* Frameworks */,
+				956AB8941EE890AC003609B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RemoveBackgroundImage;
+			productName = RemoveBackgroundImage;
+			productReference = 956AB8961EE890AC003609B0 /* RemoveBackgroundImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		956AB88E1EE890AC003609B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Elian Medeiros";
+				TargetAttributes = {
+					956AB8951EE890AC003609B0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = A57J4L9BLN;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 956AB8911EE890AC003609B0 /* Build configuration list for PBXProject "RemoveBackgroundImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 956AB88D1EE890AC003609B0;
+			productRefGroup = 956AB8971EE890AC003609B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				956AB8951EE890AC003609B0 /* RemoveBackgroundImage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		956AB8941EE890AC003609B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				956AB8A91EE890AC003609B0 /* LaunchScreen.storyboard in Resources */,
+				956AB8A61EE890AC003609B0 /* Assets.xcassets in Resources */,
+				956AB8A41EE890AC003609B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		956AB8921EE890AC003609B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				956AB8B21EE89386003609B0 /* ImageViewController.m in Sources */,
+				956AB89E1EE890AC003609B0 /* AppDelegate.m in Sources */,
+				956AB89B1EE890AC003609B0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		956AB8A21EE890AC003609B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				956AB8A31EE890AC003609B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		956AB8A71EE890AC003609B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				956AB8A81EE890AC003609B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		956AB8AB1EE890AC003609B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		956AB8AC1EE890AC003609B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		956AB8AE1EE890AC003609B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A57J4L9BLN;
+				INFOPLIST_FILE = RemoveBackgroundImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cyanu.RemoveBackgroundImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		956AB8AF1EE890AC003609B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A57J4L9BLN;
+				INFOPLIST_FILE = RemoveBackgroundImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cyanu.RemoveBackgroundImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		956AB8911EE890AC003609B0 /* Build configuration list for PBXProject "RemoveBackgroundImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				956AB8AB1EE890AC003609B0 /* Debug */,
+				956AB8AC1EE890AC003609B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		956AB8AD1EE890AC003609B0 /* Build configuration list for PBXNativeTarget "RemoveBackgroundImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				956AB8AE1EE890AC003609B0 /* Debug */,
+				956AB8AF1EE890AC003609B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 956AB88E1EE890AC003609B0 /* Project object */;
+}
